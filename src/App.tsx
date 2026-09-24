@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Github, Linkedin, Mail, ExternalLink, Menu, X, ChevronDown, ArrowRight } from 'lucide-react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 const MainPortfolio = () => {
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [activeSection, setActiveSection] = useState('home')
+  const [activeSection] = useState('home')
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 })
   const [terminalText, setTerminalText] = useState('')
   const fullTerminalText = `vinh@portfolio:~$ whoami
