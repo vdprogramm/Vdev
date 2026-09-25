@@ -236,14 +236,16 @@ vinh@portfolio:~$ status
             <div className="relative border-l border-white/10 ml-4 md:ml-0 pl-8">
               <div className="absolute left-0 top-0 w-3 h-3 rounded-full bg-accent -translate-x-[7px]" />
               <div className="space-y-4">
-                <p className="text-muted">2026</p>
-                <h3 className="text-2xl font-bold">BACKEND DEVELOPER</h3>
-                <p className="text-accent">Company Name</p>
-                <p className="text-sm text-muted">Java • Spring Boot • REST API • MySQL • Git</p>
+                <p className="text-muted">Sep 2025 – Dec 2025</p>
+                <h3 className="text-2xl font-bold">BACKEND DEVELOPER INTERN - JAVA</h3>
+                <p className="text-accent">Rikkeisoft</p>
+                <p className="text-sm text-muted">Java • Spring Boot • REST API • Postman • Git</p>
                 <ul className="space-y-2 text-muted">
-                  <li>• Developed REST APIs</li>
-                  <li>• Implemented business logic</li>
-                  <li>• Integrated frontend APIs</li>
+                  <li>• Developed backend features using Java and Spring Boot.</li>
+                  <li>• Built and tested RESTful APIs and implemented business logic.</li>
+                  <li>• Worked with databases, authentication, authorization, and role-based permissions.</li>
+                  <li>• Tested APIs using Postman and managed source code with Git.</li>
+                  <li>• Collaborated with frontend developers on API integration and bug fixing.</li>
                 </ul>
               </div>
             </div>
@@ -359,6 +361,9 @@ vinh@portfolio:~$ status
           <div className="flex flex-wrap justify-center gap-4 mb-10">
             <a href="mailto:dinhthanhvinhnb205@gmail.com" className="bg-accent hover:bg-accent/90 text-dark px-6 py-3 rounded-lg font-medium transition-all flex items-center gap-2">
               <Mail size={16} /> EMAIL ME
+            </a>
+            <a href="tel:0943053133" className="border border-white/10 hover:border-accent/50 text-gray-100 px-6 py-3 rounded-lg font-medium transition-all flex items-center gap-2">
+              0943 053 133
             </a>
           </div>
           <div className="flex justify-center gap-8">
