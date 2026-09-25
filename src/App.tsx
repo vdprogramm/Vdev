@@ -89,7 +89,7 @@ vinh@portfolio:~$ status
                 {item}
               </button>
             ))}
-            <a href="/Dinh-Thanh-Vinh-CV.pdf" download="Dinh_Thanh_Vinh_CV.pdf" target="_blank" rel="noopener noreferrer" className="bg-accent/10 hover:bg-accent/20 text-accent px-4 py-2 rounded-lg text-sm transition-all inline-block">
+            <a href="/DinhThanhVinh.pdf" download="DinhThanhVinh.pdf" target="_blank" rel="noopener noreferrer" className="bg-accent/10 hover:bg-accent/20 text-accent px-4 py-2 rounded-lg text-sm transition-all inline-block">
               Download CV
             </a>
           </div>
@@ -139,7 +139,7 @@ vinh@portfolio:~$ status
               <button onClick={() => scrollToSection('projects')} className="bg-accent hover:bg-accent/90 text-dark px-6 py-3 rounded-lg font-medium transition-all flex items-center gap-2">
                 Explore My Work <ChevronDown size={16} />
               </button>
-              <a href="/Dinh-Thanh-Vinh-CV.pdf" download="Dinh_Thanh_Vinh_CV.pdf" target="_blank" rel="noopener noreferrer" className="border border-white/10 hover:border-accent/50 px-6 py-3 rounded-lg font-medium transition-all inline-block">
+              <a href="/DinhThanhVinh.pdf" download="DinhThanhVinh.pdf" target="_blank" rel="noopener noreferrer" className="border border-white/10 hover:border-accent/50 px-6 py-3 rounded-lg font-medium transition-all inline-block">
                 Download CV
               </a>
             </div>
